@@ -40,41 +40,44 @@
 
 // Profile
 #section("Profile")
-Software engineer with nearly three years experience building production systems across IoT, industrial compliance, and e-learning. Comfortable across the full stack, from embedded firmware to deployment infrastructure. Strongest in TypeScript and Python, building end-to-end from API and database design through to deployment.
+Software engineer with nearly three years experience building production systems across IoT, industrial compliance, and e-learning. Comfortable across the full stack, from embedded firmware to deployment infrastructure. Strongest in TypeScript, building end-to-end from API and database design through to deployment.
 
 // Skills
 #section("Skills")
-*Languages:* TypeScript, JavaScript, Python, C++\
-*Frontend:* React, Preact, Vite\
-*Backend:* Node.js, Express, Flask\
+*Languages:* TypeScript, JavaScript, Python, Go, C++\
+*Frontend:* React, Preact, HTMX, Templ, Vite\
+*Backend:* Node.js, Express, Flask, SQLC\
 *Databases:* PostgreSQL, MongoDB\
-*Infrastructure:* Docker, Caddy, GitHub Actions, Linux, Cloudflare (Pages, R2, Workers, DNS), Wrangler\
+*Infrastructure:* Docker, Caddy, GitHub Actions, Linux, Cloudflare (Pages, R2, Workers, DNS), Wrangler, Terraform, OpenTofu\
 *E-learning standards:* SCORM 2004, xAPI, cmi5\
 *Tools:* Bash, Git, GitHub, OpenAPI\
-*Learning:* Go (net/http, HTMX, Templ, SQLC), Terraform, OpenTofu
 
 // Work Experience
 #section("Work Experience")
 
-#entry[*Independent Software Contractor* -- O'Neill Technology Solutions][Jan 2025 -- Present]
-- Sole developer on an ATEX industrial compliance platform for CGS Engineering (Jan 2025 - Mar 2026). Owned the full lifecycle, from requirements gathering with domain experts through to architecture, implementation, and technical documentation.
-- Built and deployed a containerised web application (Flask, React, PostgreSQL, Docker, Caddy) serving multiple client organisations, with role-based access control and white-label theming.
-- Sole developer for the curation of e-learning modules building a modern xAPI/cmi5 e-learning framework (TypeScript, Preact, Vite) for Front Foot Creative (Jun 2026 - Present). Using modern e-learning standards to allow for streaming 20GB+ video assets from Cloudflare R2 and deployment straight to Cloudflare Pages via Wrangler and GitHub Actions for CI/CD.
-- Onboarding for non-technical clients onto TalentLMS with strict GDPR/DPA compliance and German, Polish, and Romanian localisations.
-- Earlier e-learning work: a custom SCORM 2004 content generation framework published as a private npm package (Preact, Vite).
+#entry[*Front Foot Creative* -- Independent Contractor via O'Neill Technology Solutions][Jun 2026 -- Present]
+- Sole developer for the curation of e-learning modules, building a modern xAPI/cmi5 e-learning framework (TypeScript, Preact, Vite). Using modern e-learning standards to allow for streaming 20GB+ video assets from Cloudflare R2 and deployment straight to Cloudflare Pages via Wrangler and GitHub Actions for CI/CD.
+- Onboarding for non-technical clients onto TalentLMS with strict GDPR/DPA compliance
+- Multiple localisations, including English, German, Polish, and Romanian
+- Earlier e-learning work: a custom SCORM 2004 content generation framework (Preact, Vite).
 - Incorporated O'Neill Technology Solutions (Jan 2026). Handle client scoping, contract negotiations, and delivery directly.
 
+#entry[*CGS Engineer* -- Independent Contractor as Sole Trader][Jan 2025 -- Mar 2026]
+- Sole developer on an ATEX industrial compliance platform. Owned the full lifecycle, from requirements gathering with domain experts through to architecture, implementation, and technical documentation.
+- Built and deployed a containerised web application (Flask, React, PostgreSQL, Docker, Caddy) to serve multiple client organisations, with role-based access control and white-label theming.
+
 #entry[*Lead Software Developer* -- Bioscope Technologies][Jan 2022 -- Mar 2023]
-- Led fullstack IoT system development from electronic circuit design, ESP32 embedded firmware (C++), Node.js/Express backend APIs, and React frontend dashboard
+- Led fullstack IoT system development from electronic circuit design, ESP32 embedded firmware development (C++), Node.js/Express backend APIs, and React frontend dashboard
 - Built real-time environmental monitoring with ESP32 sensor nodes polling data via a REST API to a Node.js/Express backend with MongoDB, feeding a live React dashboard via Websockets.
 - Automated manual measurement processes with projected savings of £250k-£500k per year per factory.
 - Setup and maintained on-premises Debian Linux server for production deployment
 
 #entry[*Service Leader* -- Welcome Break (Costa Coffee)][Aug 2024 -- Dec 2024]
 - Team leadership role between technical positions.
-- Managed shifts.
+- Responsible for cohesion and culture for the team.
+- Scheduled shifts.
 - Handled financial processes.
-- Improved customer experience.
+- Improved customer experience from previous leadership with 94% of customers who reviewed giving 5 stars.
 
 // Projects
 #pagebreak()
@@ -112,7 +115,7 @@ Software engineer with nearly three years experience building production systems
 - Built a landing portal with analytics integration (HTML, CSS, JavaScript) secured institutional interest from Spirit Studios and the Royal Northern College of Music.
 
 #entry[*Homelab* -- Self-hosted infrastructure][]
-- ThinkCentre M920Q running Debian with Docker Compose for service orchestration, Caddy as reverse proxy, Tailscale for off-LAN networking, and a suite of self-hosted services including media, and monitoring. A practical playground for infrastructure and deployment workflows that feed back into client work..
+- ThinkCentre M920Q running Debian with Docker Compose for service orchestration, Caddy as reverse proxy, Tailscale for off-LAN networking, and a suite of self-hosted services including media, and monitoring. A practical playground for infrastructure and deployment workflows that feed back into client work.
 
 // Education
 #section("Education")
