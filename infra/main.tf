@@ -66,15 +66,11 @@ resource "cloudflare_zone_setting" "always_use_https" {
   value      = "on"
 }
 
-# Development CDN bucket.
 resource "cloudflare_r2_bucket" "cdn" {
   account_id = var.account_id
   name       = "jacoboneill-dev"
 }
 
-# Serve the CDN bucket at cdn.jacoboneill.dev. This resource also manages the
-# proxied DNS record for the custom domain, so no separate cloudflare_dns_record
-# is required.
 resource "cloudflare_r2_custom_domain" "cdn" {
   account_id  = var.account_id
   zone_id     = var.zone_id
@@ -84,7 +80,6 @@ resource "cloudflare_r2_custom_domain" "cdn" {
   min_tls     = "1.2"
 }
 
-# Wide-open CORS for development: allow any origin, method and header.
 resource "cloudflare_r2_bucket_cors" "cdn" {
   account_id  = var.account_id
   bucket_name = cloudflare_r2_bucket.cdn.name
